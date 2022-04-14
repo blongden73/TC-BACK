@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_content_block_2_images_alternates",
+  "info": {
+    "name": "Block 2 Images Alternate",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blk_img_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blk_img_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blk_reverse_order": {
+      "type": "boolean",
+      "default": false
+    },
+    "blk_bgcolor": {
+      "type": "string"
+    }
+  }
+}

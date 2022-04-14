@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tickers_ticker_lists",
+  "info": {
+    "name": "Ticker List",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string"
+    }
+  }
+}

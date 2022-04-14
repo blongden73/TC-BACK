@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_block_single_images",
+  "info": {
+    "name": "Block Single Image",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blk_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blk_image_fw": {
+      "type": "boolean",
+      "default": false
+    },
+    "blk_bgcolor": {
+      "type": "string"
+    }
+  }
+}

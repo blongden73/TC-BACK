@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_combined_1s",
+  "info": {
+    "name": "Combined #1",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

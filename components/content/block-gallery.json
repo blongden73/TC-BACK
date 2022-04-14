@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_content_block_galleries",
+  "info": {
+    "name": "Block Gallery",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "blk_gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

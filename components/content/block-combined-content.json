@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_content_block_combined_contents",
+  "info": {
+    "name": "Block Combined Content",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blk_title": {
+      "type": "string"
+    },
+    "blk_text": {
+      "type": "richtext"
+    },
+    "blk_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "blk_reverse_order": {
+      "type": "boolean",
+      "default": false
+    },
+    "blk_bgcolor": {
+      "type": "string"
+    }
+  }
+}

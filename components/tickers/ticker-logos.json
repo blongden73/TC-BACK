@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_logos_ticker_logos",
+  "info": {
+    "name": "Ticker Logos",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

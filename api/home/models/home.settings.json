@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ticker_logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tickers.ticker-logos"
+    },
+    "combined_content_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-1"
+    },
+    "combined_content_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-3"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_content_block_videos",
+  "info": {
+    "name": "Block Video",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blk_video_id": {
+      "type": "string"
+    }
+  }
+}

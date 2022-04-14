@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content_seq_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-1"
+    },
+    "content_seq_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-1"
+    },
+    "combined_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-2"
+    },
+    "content_sec_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.combined-1"
+    }
+  }
+}
